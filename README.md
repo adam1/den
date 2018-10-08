@@ -6,11 +6,15 @@
 
 See the [paper draft](https://adam-marks.com/den/denSnv20_amarks.pdf).
 
+There will be an online kickoff meeting for new collaborators:
+* Tuesday, Oct 23, 2018, 5PM Pacific
+* https://chime.aws/adam1024
+
 ### To build
 
 ```
-source gopath.bash
-make
+% source gopath.bash
+% make
 ```
 
 ### Usage
