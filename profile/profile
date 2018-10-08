@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -x
+
+sequence=$1
+profile_type=$2
+degree=$3
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+prof=$($dir/../bin/sequence -prof $profile_type -b $degree -e $degree $sequence 2>&1 | grep $profile_type.pprof | tail -1 | perl -pe "s/^.* (\/.*\/$profile_type.pprof).*/\$1/")
+
+pdf=$dir/$sequence-$profile_type-$degree.pdf
+go tool pprof -pdf $dir/../bin/sequence $prof > $pdf
+
+echo profile is $prof
+echo pdf is $pdf
