@@ -6,12 +6,6 @@
 
 See the [paper draft](https://adam-marks.com/den/denSnv20_amarks.pdf).
 
-There will be an online kickoff meeting for new collaborators:
-* Tuesday, Oct 30, 2018, 5PM Pacific
-* https://chime.aws/adam1024
-
-Join the slack channel [here](https://join.slack.com/t/zalgebra/shared_invite/enQtNDUwOTEyNTU4NzIxLThkODUwNDAwYjJhMGQ5YzJlNDkyZTU4ZjkxZGE4YzYyNWZmM2YzNjMyNjRjMTdmOGU4MGI4N2UwOGJjYjBkYzM).
-
 ### To build
 
 ```
