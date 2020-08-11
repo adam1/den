@@ -2,3 +2,5 @@
 .DS_Store
 src/github.com/
 src/golang.org/
+bin
+pkg

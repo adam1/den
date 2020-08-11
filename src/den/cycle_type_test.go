@@ -142,7 +142,7 @@ func TestCardinalityOfConjugacyClass(t *testing.T) {
 		}
 		factorial := Factorial(d)
 		if factorial.Cmp(sum) != 0 {
-			t.Errorf("d=%d conjugacy class sum does not equal factorial! expected=%v got=%v", factorial, sum)
+			t.Errorf("d=%d conjugacy class sum does not equal factorial! expected=%v got=%v", d, factorial, sum)
 		}
 	}
 }
